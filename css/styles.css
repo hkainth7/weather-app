@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../images/nature_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h1, h2, p {
+    margin: 0;
+    
+}
+
+
+#wrapper {
+    text-align: center;
+    height: 600px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(60, 107, 91, 0.8);
+    box-shadow: 0 0 20px 10px rgb(33, 34, 33);
+}
+
+.city {
+    margin-top: 20px;
+}
+
+.city > h1 {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.city > p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.temperature .degrees {
+    font-size: 40px;
+}
+
+.temperature #description {
+    font-size: 25px;
+}
+
+picture {
+    color: white;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.max-min {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#max-temp,
+#min-temp {
+    margin: 0 5px 0 5px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px
+}
+
+.forecast > article {
+    width: 100%;
+}
